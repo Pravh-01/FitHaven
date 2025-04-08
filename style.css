@@ -113,4 +113,7 @@ header>img {
     .select_difficulty{
         width: 95vw;
     }
+    .Exercises{
+        justify-content: left;
+    }
 } 
