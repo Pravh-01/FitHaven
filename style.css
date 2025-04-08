@@ -61,6 +61,7 @@ header>img {
 .Exercises{
     margin: 0 8px;
     display: flex;
+    justify-content: center;
     columns: 330px;
     height: 309px;
     overflow-x: scroll;
@@ -69,8 +70,8 @@ header>img {
     width: 0;
 }
 .select_difficulty{
-    width: 320px;
-    /* border: 1px solid; */
+    width: 300px;
+    border: 1px solid;
     border-radius: 1rem;
     display: flex;
     align-items: center;
@@ -107,9 +108,9 @@ header>img {
 .advanced .bolts .custom{
     fill: black;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:400px) {
 
     .select_difficulty{
-        width: 90vw;
+        width: 95vw;
     }
-}
+} 
