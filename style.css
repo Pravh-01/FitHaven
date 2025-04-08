@@ -107,9 +107,9 @@ header>img {
 .advanced .bolts .custom{
     fill: black;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:400px) {
 
     .select_difficulty{
-        width: 90vw;
+        width: 95vw;
     }
-}
+} 
