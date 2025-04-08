@@ -70,7 +70,7 @@ header>img {
 }
 .select_difficulty{
     width: 320px;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 1rem;
     display: flex;
     align-items: center;
