@@ -71,7 +71,7 @@ header>img {
 }
 .select_difficulty{
     width: 300px;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 1rem;
     display: flex;
     align-items: center;
@@ -107,6 +107,9 @@ header>img {
 
 .advanced .bolts .custom{
     fill: black;
+}
+#arms_b{
+    transform: scaleX(-1);
 }
 @media screen and (max-width:400px) {
 
