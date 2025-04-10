@@ -25,18 +25,32 @@ header {
 header > h2 {
     opacity: 88%;
 }
-
-header>img {
+.upper_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.upper_right .streak_number{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 500;
+}
+#fire_img {
     width: 28px;
 }
 
 .parts_list {
+    /* border: 1px solid ; */
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     overflow-x: scroll;
 }
-
+.parts_list::-webkit-scrollbar{
+    scrollbar-width: none;
+}
 .nav-item {
     /* border: 1px solid; */
     min-width: fit-content;
@@ -53,9 +67,14 @@ header>img {
     border-bottom: 3px solid black;
     opacity: 100%;
 } */
+
+ .hr_after_parts_list{
+    border: 1px solid #b3b3b3;
+    margin: 10px 4px 12px;
+ }
 .select{
     width: 100%;
-    margin: 0.5rem auto;
+    margin: 0.5rem 0;
     height: auto;
 }
 .Exercises{
@@ -111,8 +130,37 @@ header>img {
 #arms_b{
     transform: scaleX(-1);
 }
-@media screen and (max-width:400px) {
+.workout{
+    width: auto;
+    height: 50px;
+}
+.hr{
+    border: 1px solid #b3b3b3;
+}
+.hr_after_wlist{
+    margin: 10px 4px;
+}
 
+.dashboard{
+    padding: 22px 22px 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.timer_in_d2{
+    width: 20px;
+}
+
+@media screen and (max-width: 910px) {
+    .Exercises{
+        justify-content: left;
+    }
+}
+@media screen and (max-width:400px) {
+    .parts_list{
+        justify-content: left;
+    }
     .select_difficulty{
         width: 95vw;
     }
